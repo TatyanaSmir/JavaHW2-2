@@ -4,7 +4,7 @@ public class Main {
         int y = 1000;// сумма пополнения счета
 
         int bonus = 0;
-        if (y >= 1000){
+        if (y >= 1000) {
             bonus = (x + y) / 100;
         }
         int z = x + y + bonus;
@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Бонусный счет = " + bonus);
         System.out.println("Баланс =" + z);
 
-        }
-
-
     }
+
+
+}
